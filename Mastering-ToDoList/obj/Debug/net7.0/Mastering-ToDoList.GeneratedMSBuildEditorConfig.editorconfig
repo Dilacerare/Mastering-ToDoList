@@ -12,24 +12,20 @@ build_property.RootNamespace = Mastering_ToDoList
 build_property.ProjectDir = D:\My files\Codes\C#\Mastering-ToDoList\Mastering-ToDoList\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\My files\Codes\C#\Mastering-ToDoList\Mastering-ToDoList
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/My files/Codes/C\#/Mastering-ToDoList/Mastering-ToDoList/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/My files/Codes/C\#/Mastering-ToDoList/Mastering-ToDoList/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/My files/Codes/C\#/Mastering-ToDoList/Mastering-ToDoList/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/My files/Codes/C\#/Mastering-ToDoList/Mastering-ToDoList/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My files/Codes/C\#/Mastering-ToDoList/Mastering-ToDoList/Views/Task/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My files/Codes/C\#/Mastering-ToDoList/Mastering-ToDoList/Views/Task/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/My files/Codes/C\#/Mastering-ToDoList/Mastering-ToDoList/Views/_ViewImports.cshtml]

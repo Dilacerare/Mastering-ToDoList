@@ -2,6 +2,14 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mastering-ToDoList", "Mastering-ToDoList\Mastering-ToDoList.csproj", "{0435654D-465F-4DFB-B661-425FDD8C394D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{47199583-224E-4048-B904-A21BCB6FC7AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList.Domain", "ToDoList.Domain\ToDoList.Domain.csproj", "{5432167D-1BA6-4833-A576-62DBA8CB5155}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{11A432E0-8F92-4D6A-A257-2EE0C1D22BDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList.DAL", "ToDoList.DAL\ToDoList.DAL.csproj", "{04C175A2-A39E-4472-8560-9826DA1A83C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +20,17 @@ Global
 		{0435654D-465F-4DFB-B661-425FDD8C394D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0435654D-465F-4DFB-B661-425FDD8C394D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0435654D-465F-4DFB-B661-425FDD8C394D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5432167D-1BA6-4833-A576-62DBA8CB5155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5432167D-1BA6-4833-A576-62DBA8CB5155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5432167D-1BA6-4833-A576-62DBA8CB5155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5432167D-1BA6-4833-A576-62DBA8CB5155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C175A2-A39E-4472-8560-9826DA1A83C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C175A2-A39E-4472-8560-9826DA1A83C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C175A2-A39E-4472-8560-9826DA1A83C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C175A2-A39E-4472-8560-9826DA1A83C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5432167D-1BA6-4833-A576-62DBA8CB5155} = {47199583-224E-4048-B904-A21BCB6FC7AC}
+		{04C175A2-A39E-4472-8560-9826DA1A83C6} = {11A432E0-8F92-4D6A-A257-2EE0C1D22BDE}
 	EndGlobalSection
 EndGlobal
