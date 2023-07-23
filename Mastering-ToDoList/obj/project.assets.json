@@ -1311,6 +1311,20 @@
         "runtime": {
           "bin/placeholder/ToDoList.Domain.dll": {}
         }
+      },
+      "ToDoList.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "ToDoList.DAL": "1.0.0",
+          "ToDoList.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ToDoList.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToDoList.Service.dll": {}
+        }
       }
     }
   },
@@ -3890,6 +3904,11 @@
       "type": "project",
       "path": "../ToDoList.Domain/ToDoList.Domain.csproj",
       "msbuildProject": "../ToDoList.Domain/ToDoList.Domain.csproj"
+    },
+    "ToDoList.Service/1.0.0": {
+      "type": "project",
+      "path": "../ToDoList.Service/ToDoList.Service.csproj",
+      "msbuildProject": "../ToDoList.Service/ToDoList.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3897,7 +3916,8 @@
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 7.0.9",
       "Microsoft.EntityFrameworkCore >= 7.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.9",
-      "ToDoList.DAL >= 1.0.0"
+      "ToDoList.DAL >= 1.0.0",
+      "ToDoList.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3927,6 +3947,9 @@
           "projectReferences": {
             "D:\\My files\\Codes\\C#\\Mastering-ToDoList\\ToDoList.DAL\\ToDoList.DAL.csproj": {
               "projectPath": "D:\\My files\\Codes\\C#\\Mastering-ToDoList\\ToDoList.DAL\\ToDoList.DAL.csproj"
+            },
+            "D:\\My files\\Codes\\C#\\Mastering-ToDoList\\ToDoList.Service\\ToDoList.Service.csproj": {
+              "projectPath": "D:\\My files\\Codes\\C#\\Mastering-ToDoList\\ToDoList.Service\\ToDoList.Service.csproj"
             }
           }
         }

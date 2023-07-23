@@ -402,3 +402,5 @@ D:\My files\Codes\C#\Mastering-ToDoList\Mastering-ToDoList\bin\Debug\net7.0\tr\M
 D:\My files\Codes\C#\Mastering-ToDoList\Mastering-ToDoList\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\My files\Codes\C#\Mastering-ToDoList\Mastering-ToDoList\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\My files\Codes\C#\Mastering-ToDoList\Mastering-ToDoList\obj\Debug\net7.0\Mastering-ToDoList.MvcApplicationPartsAssemblyInfo.cs
+D:\My files\Codes\C#\Mastering-ToDoList\Mastering-ToDoList\bin\Debug\net7.0\ToDoList.Service.dll
+D:\My files\Codes\C#\Mastering-ToDoList\Mastering-ToDoList\bin\Debug\net7.0\ToDoList.Service.pdb
