@@ -24,7 +24,9 @@ public class TaskService : ITaskService
     {
         try
         {
-             _logger.LogInformation($"Запрос на создании задачи - {model.Name}");
+            model.Validate();
+
+            _logger.LogInformation($"Запрос на создании задачи - {model.Name}");
 
              var task = await _taskRepository.GetAll().Where(x => x.Created.Date == DateTime.Today)
                  .FirstOrDefaultAsync(x => x.Name == model.Name);
@@ -61,6 +63,7 @@ public class TaskService : ITaskService
             _logger.LogError(e,$"[TaskService.Create]: {e.Message}" );
             return new BaseResponse<TaskEntity>()
             {
+                Description = $"{e.Message}",
                 StatusCode = StatusCode.InternalServerError
             };
         }
