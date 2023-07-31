@@ -44,6 +44,11 @@
             searching: false,
             paging: false, 
             sorting: false,
+            ajax: {
+                url: "@Url.Action("TaskHandler")",
+                method: 'POST',
+                data: null
+            }
         });
     
         $('#createTask').on('click', function (e){
