@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ToDoList.Domain.Filters.Task;
 using ToDoList.Domain.Response;
 using ToDoList.Domain.ViewModels.Task;
 using ToDoList.Service.Interfaces;
@@ -31,9 +32,9 @@ public class TaskController : Controller
         return BadRequest(new {description = response.Description});
     }
 
-    public async Task<IActionResult> TaskHandler()
+    public async Task<IActionResult> TaskHandler(TaskFilter filter)
     {
-        var response = await _taskService.GetTask();
+        var response = await _taskService.GetTask(filter);
         return Json(new {data = response.Data});
     }
 }
