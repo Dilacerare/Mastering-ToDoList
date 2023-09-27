@@ -22,6 +22,37 @@ public class TaskService : ITaskService
         _logger = logger;
     }
 
+    public async Task<IBaseResponse<IEnumerable<TaskCompletedViewModel>>> GetCompletedTasks()
+    {
+        try
+        {
+            var tasks = await _taskRepository.GetAll()
+                .Where(x => x.IsDone)
+                .Where(x => x.Created.Date == DateTime.Today)
+                .Select(x => new TaskCompletedViewModel()
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Description = x.Description,
+                })
+                .ToListAsync();
+
+            return new BaseResponse<IEnumerable<TaskCompletedViewModel>>()
+            {
+                Data = tasks,
+                StatusCode = StatusCode.Ok
+            };
+        }
+        catch (Exception e)
+        {
+            _logger.LogError(e,$"[TaskService.GetCompletedTasks]: {e.Message}" );
+            return new BaseResponse<IEnumerable<TaskCompletedViewModel>>()
+            {
+                StatusCode = StatusCode.InternalServerError
+            };
+        }
+    }
+
     public async Task<IBaseResponse<TaskEntity>> Create(CreateTaskViewModel model)
     {
         try

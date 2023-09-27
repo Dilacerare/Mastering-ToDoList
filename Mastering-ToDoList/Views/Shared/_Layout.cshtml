@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Mvc.Routing
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
@@ -58,6 +59,30 @@
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="~/js/site.js" asp-append-version="true"></script>
+
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            type: 'GET',
+            url: '@Url.Action("GetCompletedTasks", "Task")',
+            success: function (data) {
+                const ulElement = $('#CompletedListTasks');
+                for (var i = 0; i < data.data.length; i++) {
+                    const task = data.data[i];
+                    ulElement.append(`
+                        <li class="list-group-item d-flex justify-content-between lh-condensed" style="background-color: #affabf">
+                            <div>
+                                <h6 class="my-0">Название: ${task.name}</h6>
+                                <small class="text-muted">Описание: ${task.description}</small>
+                            </div>
+                        </li>
+                    `)
+                }
+                $('#countOfCompletedTasks').text(data.data.length);
+            }
+        })
+    })
+</script>
 @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
