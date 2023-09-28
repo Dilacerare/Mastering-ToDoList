@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "blyTraZRGrtW30P9bUMkJrQpU1hkg7OZw4gKQhB8Q44bWyg+xHY7BHQfadyVEJKYEZ5L7x8ZSNp8pgxlkbz5YQ==",
+  "dgSpecHash": "EGofNLBUTvKpy+3y146t4ABX+m61lvjUiqLxdDye4iYwQwhyva9W2O7oXDeOmtKC6CtAAjuAyq614x2XiBfygw==",
   "success": true,
   "projectFilePath": "D:\\My files\\Codes\\C#\\Mastering-ToDoList\\Mastering-ToDoList\\Mastering-ToDoList.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aidar\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\aidar\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\aidar\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
     "C:\\Users\\aidar\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.0\\microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\aidar\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\7.0.9\\microsoft.aspnetcore.mvc.razor.runtimecompilation.7.0.9.nupkg.sha512",
     "C:\\Users\\aidar\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",

@@ -38,7 +38,7 @@
                 <span class="badge badge-secondary badge-pill text-muted" id="countOfCompletedTasks"></span>
             </h4>
             <ul class="list-group mb-3" id="CompletedListTasks"></ul>
-            <form>
+            <form asp-controller="Task" asp-action="CalculateCompletedTasks" method="post" enctype="multipart/form-data">
                 <div class="card col-md-12">
                     <button type="submit" class="btn btn-secondary">Закончить день</button>
                 </div>

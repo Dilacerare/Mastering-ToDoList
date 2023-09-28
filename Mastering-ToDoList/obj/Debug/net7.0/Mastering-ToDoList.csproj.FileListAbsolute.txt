@@ -404,3 +404,4 @@ D:\My files\Codes\C#\Mastering-ToDoList\Mastering-ToDoList\bin\Debug\net7.0\zh-H
 D:\My files\Codes\C#\Mastering-ToDoList\Mastering-ToDoList\obj\Debug\net7.0\Mastering-ToDoList.MvcApplicationPartsAssemblyInfo.cs
 D:\My files\Codes\C#\Mastering-ToDoList\Mastering-ToDoList\bin\Debug\net7.0\ToDoList.Service.dll
 D:\My files\Codes\C#\Mastering-ToDoList\Mastering-ToDoList\bin\Debug\net7.0\ToDoList.Service.pdb
+D:\My files\Codes\C#\Mastering-ToDoList\Mastering-ToDoList\bin\Debug\net7.0\CsvHelper.dll
