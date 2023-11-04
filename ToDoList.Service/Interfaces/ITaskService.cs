@@ -16,5 +16,5 @@ public interface ITaskService
 
     Task<IBaseResponse<bool>> EndTask(long id);
 
-    Task<IBaseResponse<IEnumerable<TaskViewModel>>> GetTask(TaskFilter filter);
+    Task<DataTableResult> GetTask(TaskFilter filter);
 }
